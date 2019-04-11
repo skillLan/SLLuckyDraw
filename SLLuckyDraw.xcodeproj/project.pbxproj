@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		468EB68222532F7100529F03 /* SLChartVew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468EB68122532F7100529F03 /* SLChartVew.swift */; };
+		468EB684225335DF00529F03 /* SLLuckdrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468EB683225335DF00529F03 /* SLLuckdrawView.swift */; };
+		468EB686225335F400529F03 /* SLLuckdrawView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 468EB685225335F400529F03 /* SLLuckdrawView.xib */; };
+		468EB6882253465000529F03 /* SLLuckdrawPieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468EB6872253465000529F03 /* SLLuckdrawPieView.swift */; };
 		46DF91C02252133300DCB733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF91BF2252133300DCB733 /* AppDelegate.swift */; };
 		46DF91C22252133300DCB733 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF91C12252133300DCB733 /* ViewController.swift */; };
 		46DF91C52252133300DCB733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46DF91C32252133300DCB733 /* Main.storyboard */; };
@@ -14,6 +18,8 @@
 		46DF91CA2252133400DCB733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46DF91C82252133400DCB733 /* LaunchScreen.storyboard */; };
 		46DF91D52252133500DCB733 /* SLLuckyDrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF91D42252133500DCB733 /* SLLuckyDrawTests.swift */; };
 		46DF91E02252133500DCB733 /* SLLuckyDrawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF91DF2252133500DCB733 /* SLLuckyDrawUITests.swift */; };
+		46FE92E0225DF1C10007BD18 /* SLPrizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FE92DF225DF1C10007BD18 /* SLPrizeView.swift */; };
+		46FE92E2225DF1D10007BD18 /* SLPrizeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46FE92E1225DF1D10007BD18 /* SLPrizeView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		468EB68122532F7100529F03 /* SLChartVew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLChartVew.swift; sourceTree = "<group>"; };
+		468EB683225335DF00529F03 /* SLLuckdrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLLuckdrawView.swift; sourceTree = "<group>"; };
+		468EB685225335F400529F03 /* SLLuckdrawView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLLuckdrawView.xib; sourceTree = "<group>"; };
+		468EB6872253465000529F03 /* SLLuckdrawPieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLLuckdrawPieView.swift; sourceTree = "<group>"; };
 		46DF91BC2252133300DCB733 /* SLLuckyDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLLuckyDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46DF91BF2252133300DCB733 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46DF91C12252133300DCB733 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		46DF91DB2252133500DCB733 /* SLLuckyDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLLuckyDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46DF91DF2252133500DCB733 /* SLLuckyDrawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLLuckyDrawUITests.swift; sourceTree = "<group>"; };
 		46DF91E12252133500DCB733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46FE92DF225DF1C10007BD18 /* SLPrizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLPrizeView.swift; sourceTree = "<group>"; };
+		46FE92E1225DF1D10007BD18 /* SLPrizeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLPrizeView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,12 @@
 			children = (
 				46DF91BF2252133300DCB733 /* AppDelegate.swift */,
 				46DF91C12252133300DCB733 /* ViewController.swift */,
+				468EB68122532F7100529F03 /* SLChartVew.swift */,
+				468EB683225335DF00529F03 /* SLLuckdrawView.swift */,
+				468EB685225335F400529F03 /* SLLuckdrawView.xib */,
+				468EB6872253465000529F03 /* SLLuckdrawPieView.swift */,
+				46FE92DF225DF1C10007BD18 /* SLPrizeView.swift */,
+				46FE92E1225DF1D10007BD18 /* SLPrizeView.xib */,
 				46DF91C32252133300DCB733 /* Main.storyboard */,
 				46DF91C62252133400DCB733 /* Assets.xcassets */,
 				46DF91C82252133400DCB733 /* LaunchScreen.storyboard */,
@@ -231,6 +249,8 @@
 			files = (
 				46DF91CA2252133400DCB733 /* LaunchScreen.storyboard in Resources */,
 				46DF91C72252133400DCB733 /* Assets.xcassets in Resources */,
+				46FE92E2225DF1D10007BD18 /* SLPrizeView.xib in Resources */,
+				468EB686225335F400529F03 /* SLLuckdrawView.xib in Resources */,
 				46DF91C52252133300DCB733 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +278,10 @@
 			files = (
 				46DF91C22252133300DCB733 /* ViewController.swift in Sources */,
 				46DF91C02252133300DCB733 /* AppDelegate.swift in Sources */,
+				46FE92E0225DF1C10007BD18 /* SLPrizeView.swift in Sources */,
+				468EB684225335DF00529F03 /* SLLuckdrawView.swift in Sources */,
+				468EB68222532F7100529F03 /* SLChartVew.swift in Sources */,
+				468EB6882253465000529F03 /* SLLuckdrawPieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,12 +457,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZL4PRYBZAW;
 				INFOPLIST_FILE = SLLuckyDraw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = skillLan.SLLuckyDraw;
+				PRODUCT_BUNDLE_IDENTIFIER = SL.cc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,12 +475,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZL4PRYBZAW;
 				INFOPLIST_FILE = SLLuckyDraw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = skillLan.SLLuckyDraw;
+				PRODUCT_BUNDLE_IDENTIFIER = SL.cc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

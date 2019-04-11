@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SLLuckdrawView" customModule="SLLuckyDraw" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pDJ-iv-FdY">
+                    <rect key="frame" x="58" y="204" width="259" height="259"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_circle_light" translatesAutoresizingMaskIntoConstraints="NO" id="3iL-nU-ggr">
+                    <rect key="frame" x="40" y="186" width="295" height="295"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="3iL-nU-ggr" secondAttribute="height" multiplier="1:1" id="kyp-ar-3BZ"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_circle_whitelight" translatesAutoresizingMaskIntoConstraints="NO" id="gGz-M2-KSY">
+                    <rect key="frame" x="52.5" y="198.5" width="270" height="270"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JfN-I4-lXc">
+                    <rect key="frame" x="172.5" y="316.5" width="30" height="34"/>
+                    <connections>
+                        <action selector="StartClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="7Xi-AK-QFX"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请开始你的表演" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Euw-bG-MQw">
+                    <rect key="frame" x="0.0" y="132" width="375" height="24"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="pDJ-iv-FdY" firstAttribute="bottom" secondItem="3iL-nU-ggr" secondAttribute="bottom" constant="-18" id="2my-5p-PZY"/>
+                <constraint firstAttribute="trailing" secondItem="Euw-bG-MQw" secondAttribute="trailing" id="53z-5q-umb"/>
+                <constraint firstItem="pDJ-iv-FdY" firstAttribute="top" secondItem="3iL-nU-ggr" secondAttribute="top" constant="18" id="5tP-nD-cWB"/>
+                <constraint firstItem="gGz-M2-KSY" firstAttribute="centerX" secondItem="3iL-nU-ggr" secondAttribute="centerX" id="73e-1c-yX4"/>
+                <constraint firstItem="Euw-bG-MQw" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="8sJ-hF-XAw"/>
+                <constraint firstItem="Euw-bG-MQw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="CpZ-K8-Fou"/>
+                <constraint firstItem="3iL-nU-ggr" firstAttribute="top" secondItem="Euw-bG-MQw" secondAttribute="bottom" constant="30" id="Mdp-RS-gmP"/>
+                <constraint firstItem="pDJ-iv-FdY" firstAttribute="leading" secondItem="3iL-nU-ggr" secondAttribute="leading" constant="18" id="Pvi-fu-qD1"/>
+                <constraint firstItem="3iL-nU-ggr" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="SWY-FA-too"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="3iL-nU-ggr" secondAttribute="trailing" constant="40" id="TQp-EL-UQT"/>
+                <constraint firstItem="gGz-M2-KSY" firstAttribute="centerY" secondItem="3iL-nU-ggr" secondAttribute="centerY" id="Vag-BB-gwx"/>
+                <constraint firstItem="3iL-nU-ggr" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Xiv-Wt-XHh"/>
+                <constraint firstItem="pDJ-iv-FdY" firstAttribute="trailing" secondItem="3iL-nU-ggr" secondAttribute="trailing" constant="-18" id="k9o-Mo-4J1"/>
+                <constraint firstItem="JfN-I4-lXc" firstAttribute="centerX" secondItem="3iL-nU-ggr" secondAttribute="centerX" id="oss-L0-Lkj"/>
+                <constraint firstItem="JfN-I4-lXc" firstAttribute="centerY" secondItem="3iL-nU-ggr" secondAttribute="centerY" id="u4z-ev-J1u"/>
+                <constraint firstItem="3iL-nU-ggr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="40" id="uuk-AA-5xN"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="borderImageView" destination="3iL-nU-ggr" id="JTC-yI-22f"/>
+                <outlet property="contentView" destination="pDJ-iv-FdY" id="n6H-oQ-iSY"/>
+                <outlet property="resultLabel" destination="Euw-bG-MQw" id="iZo-IW-myD"/>
+                <outlet property="startRaffleButton" destination="JfN-I4-lXc" id="FFB-6v-8dw"/>
+            </connections>
+            <point key="canvasLocation" x="53.600000000000001" y="48.125937031484263"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="img_circle_light" width="298.5" height="298.5"/>
+        <image name="img_circle_whitelight" width="270" height="270"/>
+    </resources>
+</document>
